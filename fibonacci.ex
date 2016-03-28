@@ -12,4 +12,4 @@ defmodule Fibonacci do
   end
 end
 
-IO.puts(Fibonacci.get(100))
+IO.inspect Fibonacci.get(100)
